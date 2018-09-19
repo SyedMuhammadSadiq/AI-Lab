@@ -37,6 +37,23 @@ s = name[::-1]
 print(s)
 
 
+# In[25]:
+
+name = "Noman islam 1 2 3"
+countDigit = 0;
+countAlpha = 0;
+for i in name:
+    if(i.isalpha()):
+        print(i)
+        countAlpha += 1;
+    elif(i.isdigit()):
+        print(i)
+        countDigit += 1;
+
+print("total alpha ",countAlpha)
+print("total digits", countDigit)
+
+
 # In[ ]:
 
 
