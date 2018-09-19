@@ -54,7 +54,28 @@ print("total alpha ",countAlpha)
 print("total digits", countDigit)
 
 
+# In[37]:
+
+sentence = input("Enter sentence = ")
+print(sentence.split(" "))
+
+
+# In[38]:
+
+dic = {}
+dic["apple"] = 2
+dic["orange"] = 3
+dic["pomegranate"] = 5
+
+for i in dic.keys():
+     print(i,dic[i])
+
+
 # In[ ]:
 
-
+dic = {}
+sentence = input("Enter sentence = ")
+for i in sentence.split(" "):
+    dic[i]=null
+    print(dic)
 
